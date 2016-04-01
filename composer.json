@@ -1,0 +1,30 @@
+{
+    "name"       : "milkyway-multimedia/ss-mwm-core",
+    "description": "Some basic utilities used across multiple Milkyway Multimedia modules",
+    "type"       : "silverstripe-module",
+    "keywords"   : [
+        "silverstripe",
+        "utilities",
+        "mwm"
+    ],
+    "license"    : "MIT",
+    "authors"    : [
+        {
+            "name" : "Mellisa Hankins",
+            "email": "mellisa.hankins@me.com"
+        }
+    ],
+    "require"    : {
+        "danielstjules/stringy"         : "~1.9",
+        "milkyway-multimedia/ss-mwm-env": "~0.3"
+    },
+    "require-dev": {
+        "phpunit/PHPUnit": "~3.7"
+    },
+    "extra"      : {
+        "installer-name": "mwm-core",
+        "branch-alias"  : {
+            "dev-master": "0.3.x-dev"
+        }
+    }
+}

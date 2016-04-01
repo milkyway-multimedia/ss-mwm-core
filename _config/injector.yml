@@ -1,0 +1,19 @@
+---
+Name: mwm-core--injector
+---
+Injector:
+  UploadField_SelectHandler:
+    class: 'Milkyway\SS\Core\Overrides\UploadField_SelectHandler'
+
+  Cookie_Backend: Milkyway\SS\Core\CookieJar
+
+  director:
+    class: 'Milkyway\SS\Core\Director'
+
+  mwm:
+    class: 'Milkyway\SS\Utilities'
+
+  s:
+    class: 'Stringy\Stringy'
+    constructor:
+      0: 'placeholder'
